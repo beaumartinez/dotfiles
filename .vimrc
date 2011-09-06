@@ -37,6 +37,13 @@ se fdm=marker
 se fdl=0 
 " }}}
 
+" Line numbers {{{
+" Use minimal space
+se nuw=1
+" Show relative line numbers
+se rnu
+" }}}
+
 " Mappings {{{
 " Make leader more accessible
 let mapleader=','
