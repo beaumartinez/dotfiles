@@ -24,11 +24,13 @@ Bundle 'tpope/vim-fugitive'
 filet on
 " }}}
 
-" Command-line completion
+" Command-line completion {{{
 se wmnu
+" }}}
 
-" Filetype
+" Filetype {{{
 filet plugin indent on
+" }}}
 
 " Folding {{{
 se fdm=marker
