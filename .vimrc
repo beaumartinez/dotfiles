@@ -31,3 +31,8 @@ se wmnu
 se fdm=marker
 se fdl=0 
 " }}}
+
+" Mappings {{{
+" Show help in a vertical split on the right
+no <leader>h :vert rightb h 
+" }}}
