@@ -24,6 +24,9 @@ Bundle 'tpope/vim-fugitive'
 filet on
 " }}}
 
+" Command-line completion
+se wmnu
+
 " Folding {{{
 se fdm=marker
 se fdl=0 
