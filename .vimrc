@@ -27,6 +27,9 @@ filet on
 " Command-line completion
 se wmnu
 
+" Filetype
+filet plugin indent on
+
 " Folding {{{
 se fdm=marker
 se fdl=0 
