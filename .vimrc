@@ -11,6 +11,18 @@
 "  - zR|zM to open|close all folds
 "  - za to toggle the current fold
 
+" Vundle {{{
+filet off
+
+se rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+
+" Permanent bundles
+Bundle 'gmarik/vundle'
+
+filet on
+" }}}
+
 " Folding {{{
 se fdm=marker
 se fdl=0 
