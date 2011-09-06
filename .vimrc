@@ -19,6 +19,7 @@ call vundle#rc()
 
 " Permanent bundles
 Bundle 'gmarik/vundle'
+Bundle 'tpope/vim-fugitive'
 
 filet on
 " }}}
