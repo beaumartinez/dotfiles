@@ -9,6 +9,7 @@ Bundle 'gmarik/vundle'
 " }}}
 
 " Plugins {{{
+Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-fugitive'
 "}}}
 
