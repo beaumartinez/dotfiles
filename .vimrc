@@ -1,16 +1,5 @@
 " Beau's .vimrc
 
-" # Reading protip
-"
-" Use marker folds:
-"
-"     :se fdm=marker fdl=0
-" 
-" Then use:
-"
-"  - zR|zM to open|close all folds
-"  - za to toggle the current fold
-
 " Vundle {{{
 so ~/.vim/vundle.vim
 " }}}
@@ -43,3 +32,5 @@ no \ ,
 no <leader>h :vert rightb h 
 " }}}
 " }}}
+
+" vim: fdm=marker fdl=0
