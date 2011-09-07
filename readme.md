@@ -12,11 +12,11 @@ Make sure ~/.vim/ doesn't exist or is empty and ~/.vimrc and ~/.gvimrc don't exi
 
     git clone git://github.com/beaumartinez/.vim.git ~/.vim
 
-2. Run [the installer script][]:
+2. Run [the install script][]:
 
     source ~/.vim/install.sh
 
-[the installer script]: http://github.com/beaumartinez/.vim/blob/master/install.sh
+[the install script]: http://github.com/beaumartinez/.vim/blob/master/install.sh
 
 All in one command:
 
