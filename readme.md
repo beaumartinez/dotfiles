@@ -6,7 +6,7 @@ This is my Vim config. I use [Vundle][] to manage plugins.
 
 # Installation
 
-Make sure `~/.vim/` doesn't exist or is empty and `~/.vimrc` and `~/.gvimrc` don't exist.
+Make sure `~/.vim` doesn't exist or is empty and `~/.vimrc` and `~/.gvimrc` don't exist.
 
 1. Clone the repo:
 
