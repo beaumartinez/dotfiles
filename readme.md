@@ -16,7 +16,7 @@ Make sure ~/.vim/ doesn't exist or is empty and ~/.vimrc and ~/.gvimrc don't exi
 
     source ~/.vim/install.sh
 
-[the installer script]: http://github.com/beaumartinez/.vim/install.sh
+[the installer script]: http://github.com/beaumartinez/.vim/blob/master/install.sh
 
 All in one command:
 
