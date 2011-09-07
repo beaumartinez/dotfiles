@@ -32,11 +32,6 @@ se wmnu
 filet plugin indent on
 " }}}
 
-" Folding {{{
-se fdm=marker
-se fdl=0 
-" }}}
-
 " Line numbers {{{
 " Use minimal space
 se nuw=1
