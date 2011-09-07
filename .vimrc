@@ -12,14 +12,7 @@
 "  - za to toggle the current fold
 
 " Vundle {{{
-filet off
-
-se rtp+=~/.vim/bundle/vundle
-call vundle#rc()
-
-Bundle 'gmarik/vundle'
-
-filet on
+so ~/.vim/vundle.vim
 " }}}
 
 " Command-line completion {{{
@@ -45,7 +38,3 @@ no \ ,
 " Show help in a vertical split on the right
 no <leader>h :vert rightb h 
 " }}}
-
-" Plugins {{{
-Bundle 'tpope/vim-fugitive'
-"}}}
