@@ -28,6 +28,11 @@ let mapleader=','
 no \ ,
 " }}}
 
+" Remain in visual mode if shifting in visual mode {{{
+vn > >gv
+vn < <gv
+" }}}
+
 " Show help in a vertical split on the right {{{
 no <leader>h :vert rightb h 
 " }}}
