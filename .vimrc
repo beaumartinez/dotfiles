@@ -17,9 +17,7 @@ filet off
 se rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 
-" Permanent bundles
 Bundle 'gmarik/vundle'
-Bundle 'tpope/vim-fugitive'
 
 filet on
 " }}}
@@ -47,3 +45,7 @@ no \ ,
 " Show help in a vertical split on the right
 no <leader>h :vert rightb h 
 " }}}
+
+" Plugins {{{
+Bundle 'tpope/vim-fugitive'
+"}}}
