@@ -24,17 +24,22 @@ filet plugin indent on
 " }}}
 
 " Line numbers {{{
-" Use minimal space
+" Use minimal space {{{
 se nuw=1
-" Show relative line numbers
+" }}}
+
+" Show relative line numbers {{{
 se rnu
+" }}}
 " }}}
 
 " Mappings {{{
-" Make leader more accessible
+" Make leader more accessible {{{
 let mapleader=','
 no \ ,
+" }}}
 
-" Show help in a vertical split on the right
+" Show help in a vertical split on the right {{{
 no <leader>h :vert rightb h 
+" }}}
 " }}}
