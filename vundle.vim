@@ -1,3 +1,4 @@
+se nocp
 filet off
 
 " Vundle {{{
