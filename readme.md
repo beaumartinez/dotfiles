@@ -6,7 +6,7 @@ This is my Vim config. I use [Vundle][] to manage plugins.
 
 # Installation
 
-Make sure ~/.vim/ doesn't exist or is empty and ~/.vimrc and ~/.gvimrc don't exist.
+Make sure `~/.vim/` doesn't exist or is empty and `~/.vimrc` and `~/.gvimrc` don't exist.
 
 1. Clone the repo:
 
@@ -18,6 +18,6 @@ Make sure ~/.vim/ doesn't exist or is empty and ~/.vimrc and ~/.gvimrc don't exi
 
 [the install script]: http://github.com/beaumartinez/.vim/blob/master/install.sh
 
-All in one command:
+## All in one command
 
     git clone git://github.com/beaumartinez/.vim.git ~/.vim && source ~/.vim/install.sh
