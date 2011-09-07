@@ -13,3 +13,5 @@ Bundle 'tpope/vim-fugitive'
 "}}}
 
 filet on
+
+" vim: fdm=marker fdl=0
