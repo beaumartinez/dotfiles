@@ -33,6 +33,10 @@ se fdl=0
 " }}}
 
 " Mappings {{{
+" Make leader more accessible
+let mapleader=','
+no \ ,
+
 " Show help in a vertical split on the right
 no <leader>h :vert rightb h 
 " }}}
