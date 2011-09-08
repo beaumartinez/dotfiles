@@ -10,11 +10,11 @@ Make sure `~/.vim` doesn't exist or is empty and `~/.vimrc` and `~/.gvimrc` don'
 
 1. Clone the repo:
 
-       git clone git://github.com/beaumartinez/.vim.git ~/.vim
+        git clone git://github.com/beaumartinez/.vim.git ~/.vim
 
 2. Run [the install script][]:
 
-       source ~/.vim/install.sh
+        source ~/.vim/install.sh
 
 [the install script]: http://github.com/beaumartinez/.vim/blob/master/install.sh
 
