@@ -101,6 +101,10 @@ se sw=4
 " }}}
 " }}}
 
+" Syntax highlighting {{{
+sy on
+" }}}
+
 " }}}
 
 " vim: fdm=marker fdl=1
