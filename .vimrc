@@ -52,6 +52,10 @@ let mapleader=','
 no \ ,
 " }}}
 
+" Edit in a tab {{{
+no <leader>t :tab drop 
+" }}}
+
 " Edit .vimrc {{{
 no <leader>v :tab drop ~/.vim/.vimrc<cr>
 " }}}
