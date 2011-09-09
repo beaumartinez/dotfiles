@@ -52,6 +52,10 @@ let mapleader=','
 no \ ,
 " }}}
 
+" Edit .vimrc {{{
+no <leader>v :tab drop ~/.vim/.vimrc<cr>
+" }}}
+
 " Remain in visual mode if shifting in visual mode {{{
 vn > >gv
 vn < <gv
