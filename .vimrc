@@ -22,6 +22,15 @@ filet plugin indent on
 se wmnu
 " }}}
 
+" Disable modelines except in Vim files {{{
+" Disable modelines {{{
+se noml
+" }}}
+
+" Enable modelines in Vim files {{{
+au FileType vim se ml
+" }}}
+" }}}
 
 " Line numbers {{{
 " Use minimal space {{{
