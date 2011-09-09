@@ -78,6 +78,10 @@ se shm+=I
 se cc+=80
 " }}}
 
+" Show keys as they're typed {{{
+se sc
+" }}}
+
 " }}}
 
 " vim: fdm=marker fdl=1
