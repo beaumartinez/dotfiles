@@ -70,6 +70,10 @@ no <leader>h :vert rightb h
 se acd
 " }}}
 
+" Remove intro message {{{
+se shm+=I
+" }}}
+
 " }}}
 
 " vim: fdm=marker fdl=1
