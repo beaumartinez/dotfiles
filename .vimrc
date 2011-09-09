@@ -66,6 +66,10 @@ no <leader>h :vert rightb h
 " }}}
 " }}}
 
+" Match the current working directory to the current buffer {{{
+se acd
+" }}}
+
 " }}}
 
 " vim: fdm=marker fdl=1
