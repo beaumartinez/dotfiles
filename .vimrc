@@ -74,6 +74,10 @@ se acd
 se shm+=I
 " }}}
 
+" Show a line at 80 characters {{{
+se cc+=80
+" }}}
+
 " }}}
 
 " vim: fdm=marker fdl=1
