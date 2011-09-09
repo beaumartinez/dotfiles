@@ -4,13 +4,14 @@
 so ~/.vim/vundle.vim
 " }}}
 
+" Filetype {{{
+filet plugin indent on
+" }}}
+
 " Command-line completion {{{
 se wmnu
 " }}}
 
-" Filetype {{{
-filet plugin indent on
-" }}}
 
 " Line numbers {{{
 " Use minimal space {{{
