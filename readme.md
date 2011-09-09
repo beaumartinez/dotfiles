@@ -1,8 +1,9 @@
 # Beau's Vim config
 
-This is my Vim config. I use [Vundle][] to manage plugins.
+This is my Vim config. I use [Vundle][] to manage [plugins][].
 
 [Vundle]: http://github.com/gmarik/vundle
+[plugins]: http://github.com/beaumartinez/.vim/blob/master/vundle.sh
 
 # Installation
 
