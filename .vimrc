@@ -18,6 +18,10 @@ filet plugin indent on
 
 " Ordered arbitrarily {{{
 
+" Always show the status line {{{
+se ls=2
+" }}}
+
 " Command-line completion {{{
 se wmnu
 " }}}
