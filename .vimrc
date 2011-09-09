@@ -36,6 +36,10 @@ au FileType vim se ml
 " }}}
 " }}}
 
+" Highlight the cursor line {{{
+se cul
+" }}}
+
 " Line numbers {{{
 " Use minimal space {{{
 se nuw=1
