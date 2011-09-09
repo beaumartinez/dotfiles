@@ -86,6 +86,21 @@ se sc
 au BufWritePost $MYVIMRC :so $MYVIMRC
 " }}}
 
+" Spaces and tabs {{{
+" Use spaces, not tabs {{{
+se et
+" }}}
+
+" Make a tab four spaces {{{
+se sts=4
+se ts=4
+" }}}
+
+" Indent four spaces {{{
+se sw=4
+" }}}
+" }}}
+
 " }}}
 
 " vim: fdm=marker fdl=1
