@@ -2,6 +2,10 @@
 
 " Ordered specifically (relative to each other and all others) {{{
 
+" Remove all previous autocommands {{{
+au!
+" }}}
+
 " Vundle {{{
 so ~/.vim/vundle.vim
 " }}}
