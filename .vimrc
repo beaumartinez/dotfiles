@@ -82,6 +82,10 @@ se cc+=80
 se sc
 " }}}
 
+" Source this file on write {{{
+au BufWritePost $MYVIMRC :so $MYVIMRC
+" }}}
+
 " }}}
 
 " vim: fdm=marker fdl=1
