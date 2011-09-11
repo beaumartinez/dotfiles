@@ -16,8 +16,6 @@ filet plugin indent on
 
 " }}}
 
-" Ordered arbitrarily {{{
-
 " Always show the status line {{{
 se ls=2
 " }}}
@@ -119,8 +117,6 @@ se sw=4
 
 " Syntax highlighting {{{
 sy on
-" }}}
-
 " }}}
 
 " vim: fdm=marker fdl=1
