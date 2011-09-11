@@ -22,6 +22,10 @@ filet plugin indent on
 se ls=2
 " }}}
 
+" Highlight search matches {{{
+se hls
+" }}}
+
 " Command-line completion {{{
 se wmnu
 " }}}
