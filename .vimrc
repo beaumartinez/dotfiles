@@ -1,6 +1,6 @@
 " Beau's .vimrc
 
-" Ordered specifically (relative to each other and all others) {{{
+" Important commands—we run these first (and in a specific order) {{{
 
 " Remove all previous autocommands {{{
 au!
