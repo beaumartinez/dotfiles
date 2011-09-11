@@ -76,6 +76,10 @@ vn < <gv
 " Show help in a vertical split on the right {{{
 no <leader>h :vert rightb h 
 " }}}
+
+" Toggle highlighting search matches {{{
+no <leader>s :se hls!<cr>
+" }}}
 " }}}
 
 " Match the current working directory to the current buffer {{{
