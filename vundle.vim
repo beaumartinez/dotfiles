@@ -11,6 +11,7 @@ Bundle 'gmarik/vundle'
 " Plugins {{{
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-surround'
 "}}}
 
 filet on
