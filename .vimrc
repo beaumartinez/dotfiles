@@ -1,7 +1,6 @@
 " Beau's .vimrc
 
 " Important commands—we run these first (and in a specific order) {{{
-
 " Remove all previous autocommands {{{
 au!
 " }}}
@@ -13,7 +12,6 @@ so ~/.vim/vundle.vim
 " Filetype {{{
 filet plugin indent on
 " }}}
-
 " }}}
 
 " Always show the status line {{{
