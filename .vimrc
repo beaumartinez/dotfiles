@@ -14,6 +14,10 @@ filet plugin indent on
 " }}}
 " }}}
 
+" Add git information to the status line {{{
+se stl=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+" }}}
+
 " Always show the status line {{{
 se ls=2
 " }}}
