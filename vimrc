@@ -99,7 +99,7 @@ se sc
 " }}}
 
 " Source this file on write {{{
-au BufWritePost $MYVIMRC :so $MYVIMRC
+au BufWritePost ~/.vim/vimrc :so ~/.vim/vimrc
 " }}}
 
 " Spaces and tabs {{{
