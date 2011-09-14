@@ -108,7 +108,8 @@ se cc+=80
 se sc
 " }}}
 
-" Source this file on write {{{
+" Source .vimrc on write {{{
+au BufWritePost $MYVIMRC :so $MYVIMRC
 au BufWritePost ~/.vim/vim.vim :so ~/.vim/vim.vim
 " }}}
 
