@@ -65,7 +65,7 @@ no <leader>t :tab drop
 " }}}
 
 " Edit .vimrc {{{
-no <leader>v :tab drop ~/.vim/.vimrc<cr>
+no <leader>v :tab drop ~/.vim/vimrc<cr>
 " }}}
 
 " Remain in visual mode if shifting in visual mode {{{
