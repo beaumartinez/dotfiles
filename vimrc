@@ -68,6 +68,16 @@ no <leader>t :tab drop
 no <leader>v :tab drop ~/.vim/vimrc<cr>
 " }}}
 
+" Fugitive mappings {{{
+" Run git command {{{
+no <leader>g :Git 
+" }}}
+
+" Run git command and open output in a vertical split {{{
+no <leader>gv :Gvsplit! 
+" }}}
+" }}}
+
 " Remain in visual mode if shifting in visual mode {{{
 vn > >gv
 vn < <gv
