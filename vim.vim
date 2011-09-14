@@ -65,7 +65,7 @@ no <leader>t :tab drop
 " }}}
 
 " Edit .vimrc {{{
-no <leader>v :tab drop ~/.vim/vimrc<cr>
+no <leader>v :tab drop ~/.vim/vim.vim<cr>
 " }}}
 
 " Fugitive mappings {{{
@@ -109,7 +109,7 @@ se sc
 " }}}
 
 " Source this file on write {{{
-au BufWritePost ~/.vim/vimrc :so ~/.vim/vimrc
+au BufWritePost ~/.vim/vim.vim :so ~/.vim/vim.vim
 " }}}
 
 " Spaces and tabs {{{
