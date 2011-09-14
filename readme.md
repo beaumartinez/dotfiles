@@ -9,6 +9,10 @@ This is my Vim config. I use [Vundle] to manage [plugins].
 
 Make sure `~/.vim` doesn't exist or is empty and `~/.vimrc` and `~/.gvimrc` don't exist.
 
+If they do:
+
+    mv ~/.vim ~/.old-vim; mv ~/.vimrc ~/.old-vimrc; mv ~/.gvimrc ~/.old-gvimrc
+
 ## All in one command
 
     git clone git://github.com/beaumartinez/.vim.git ~/.vim && source ~/.vim/install.sh
