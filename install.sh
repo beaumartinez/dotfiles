@@ -7,3 +7,8 @@ vim -u ~/.vim/vundle.vim +BundleInstall +q +q
 echo 'Symlinking .vimrc and .gvimrc...'
 ln -s ~/.vim/vim.vim ~/.vimrc
 ln -s ~/.vim/gvim.vim ~/.gvimrc
+
+echo 'Making special directories...'
+mkdir ~/.vim/backup
+mkdir ~/.vim/swap
+mkdir ~/.vim/undo
