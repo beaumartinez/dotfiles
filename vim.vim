@@ -128,6 +128,10 @@ se sw=4
 " }}}
 " }}}
 
+" Store swap files in the .vim folder {{{
+let &dir = $HOME . '/.vim/swap//'
+" }}}
+
 " Syntax highlighting {{{
 sy on
 " }}}
