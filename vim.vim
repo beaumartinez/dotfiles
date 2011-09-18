@@ -87,6 +87,10 @@ vn < <gv
 no <leader>h :vert rightb h 
 " }}}
 
+" Toggle Gundo {{{
+no <leader>u :GundoToggle<cr>
+" }}}
+
 " Toggle highlighting search matches {{{
 no <leader>s :se hls!<cr>
 " }}}
