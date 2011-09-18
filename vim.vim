@@ -1,17 +1,17 @@
 " Beau's .vimrc
 
-" Important commands—we run these first (and in a specific order) {{{
-" Remove all previous autocommands {{{
+" A ! means that the command's order (relative to the others) is important.
+
+" ! Remove all previous autocommands {{{
 au!
 " }}}
 
-" Vundle {{{
+" ! Vundle {{{
 so ~/.vim/vundle.vim
 " }}}
 
-" Filetype {{{
+" ! Filetype {{{
 filet plugin indent on
-" }}}
 " }}}
 
 " Add git information to the status line {{{
