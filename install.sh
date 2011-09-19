@@ -2,7 +2,7 @@ if [ -e ~/.vim -o -e ~/.vimrc -o -e ~/.gvimrc ]; then
     DATE=$(date +%Y-%m-%d)
     VIM_BACKUP_PATH=~/.vim-$DATE
 
-    echo Backing-up previous Vim config to $VIM_BACKUP_PATH...
+    echo Backing-up existing Vim config to $VIM_BACKUP_PATH...
 
     if [ -e $VIM_BACKUP_PATH ]; then
         echo Error: $VIM_BACKUP_PATH already exists
