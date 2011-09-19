@@ -17,20 +17,20 @@ if [ -e ~/.vim -o -e ~/.vimrc -o -e ~/.gvimrc ]; then
     mv ~/.gvimrc $VIM_BACKUP_PATH
 fi
 
-echo "Cloning Beau's Vim config..."
+echo Cloning Beau\'s Vim config...
 git clone git://github.com/beaumartinez/.vim.git ~/.vim/
 
-echo 'Cloning Vundle...'
+echo Cloning Vundle...
 git clone git://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
-echo 'Installing plugins...'
+echo Installing plugins...
 vim -u ~/.vim/vundle.vim +BundleInstall +q +q
 
-echo 'Symlinking .vimrc and .gvimrc...'
+echo Symlinking .vimrc and .gvimrc...
 ln -s ~/.vim/vim.vim ~/.vimrc
 ln -s ~/.vim/gvim.vim ~/.gvimrc
 
-echo 'Making special directories...'
+echo Making special directories...
 mkdir ~/.vim/backup
 mkdir ~/.vim/swap
 mkdir ~/.vim/undo
