@@ -11,24 +11,8 @@ My `.vimrc` is [`vim.vim`] and my `.gvimrc` is [`gvim.vim`].
 
 # Installation
 
-Make sure `~/.vim` doesn't exist or is empty and `~/.vimrc` and `~/.gvimrc` don't exist.
+Run the [install script]:
 
-If they do:
+    curl -s https://raw.github.com/beaumartinez/.vim/master/install.sh | sh
 
-    mv ~/.vim ~/.old-vim; mv ~/.vimrc ~/.old-vimrc; mv ~/.gvimrc ~/.old-gvimrc
-
-## All in one command
-
-    git clone git://github.com/beaumartinez/.vim.git ~/.vim && source ~/.vim/install.sh
-
-## Step by step
-
-1. Clone the repo:
-
-        git clone git://github.com/beaumartinez/.vim.git ~/.vim
-
-2. Run [the install script]:
-
-[the install script]: http://github.com/beaumartinez/.vim/blob/master/install.sh
-
-        source ~/.vim/install.sh
+[install script]: https://github.com/beaumartinez/.vim/blob/master/install.sh
