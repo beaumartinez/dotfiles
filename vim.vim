@@ -148,9 +148,11 @@ sy on
 " Store undoes to a file {{{
 se udf
 " }}}
+
 " Store undo files in the .vim folder {{{
 let &udir = $HOME . '/.vim/undo'
 " }}}
+
 " Store 10000 undoes {{{
 se ul=10000
 " }}}
