@@ -1,8 +1,8 @@
 # Beau's Vim config
 
-This is my Vim config. I use [Vundle] to manage [plugins].
+This is my Vim config.
 
-My `.vimrc` is [`vim.vim`] and my `.gvimrc` is [`gvim.vim`].
+I use [Vundle] to manage [plugins]. My `.vimrc` is [`vim.vim`] and my `.gvimrc` is [`gvim.vim`].
 
 [`gvim.vim`]: http://github.com/beaumartinez/.vim/blob/master/gvim.vim
 [`vim.vim`]: http://github.com/beaumartinez/.vim/blob/master/vim.vim
