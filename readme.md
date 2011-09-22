@@ -4,15 +4,17 @@ This is my Vim config.
 
 I use [Vundle] to manage [plugins]. My `.vimrc` is [`vim.vim`] and my `.gvimrc` is [`gvim.vim`].
 
-[`gvim.vim`]: http://github.com/beaumartinez/.vim/blob/master/gvim.vim
-[`vim.vim`]: http://github.com/beaumartinez/.vim/blob/master/vim.vim
+[`gvim.vim`]: http://github.com/beaumartinez/vim-config/blob/master/gvim.vim
+[`vim.vim`]: http://github.com/beaumartinez/vim-config/blob/master/vim.vim
 [Vundle]: http://github.com/gmarik/vundle
-[plugins]: http://github.com/beaumartinez/.vim/blob/master/vundle.vim
+[plugins]: http://github.com/beaumartinez/vim-config/blob/master/vundle.vim
 
 # Installation
 
-Run the [install script]:
+It's one command. Run the [install script]:
 
-    curl -s https://raw.github.com/beaumartinez/.vim/master/install.sh | sh
+[install script]: https://github.com/beaumartinez/vim-config/blob/master/install.sh
 
-[install script]: https://github.com/beaumartinez/.vim/blob/master/install.sh
+    curl -s https://raw.github.com/beaumartinez/vim-config/master/install.sh | sh
+
+—And you're done!
