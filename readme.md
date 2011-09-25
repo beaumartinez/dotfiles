@@ -15,6 +15,6 @@ It's one command. Run the [install script]:
 
 [install script]: https://github.com/beaumartinez/vim-config/blob/master/install.sh
 
-    curl -s https://raw.github.com/beaumartinez/vim-config/master/install.sh | sh
+    curl -s https://raw.github.com/beaumartinez/vim-config/master/install.sh | bash
 
 —And you're done!
