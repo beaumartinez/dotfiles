@@ -22,7 +22,7 @@ if [ -e ~/.vim -o -e ~/.vimrc -o -e ~/.gvimrc ]; then
 fi
 
 echo Cloning Beau\'s Vim config...
-git clone git://github.com/beaumartinez/.vim.git ~/.vim/
+git clone git://github.com/beaumartinez/vim-config.git ~/.vim/
 
 echo Cloning Vundle...
 git clone git://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
