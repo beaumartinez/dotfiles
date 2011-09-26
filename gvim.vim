@@ -15,8 +15,8 @@ se go-=T
 colo solarized
 " }}}
 
-" Use Ubuntu Mono beta {{{
-se gfn=UbuntuBeta\ Mono\ 12
+" Use Ubuntu Mono {{{
+se gfn=Ubuntu\ Mono\ 12
 " }}}
 
 " vim: fdm=marker fdl=0
