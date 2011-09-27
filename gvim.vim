@@ -12,7 +12,7 @@ colo solarized
 " }}}
 
 " Use Ubuntu Mono {{{
-se gfn=Ubuntu\ Mono\ 12
+se gfn=Ubuntu\ Mono:h12
 " }}}
 
 " vim: fdm=marker fdl=0
