@@ -3,10 +3,6 @@ se co=90
 se lines=30
 " }}}
 
-" Remove menu bar {{{
-se go-=m
-" }}}
-
 " Remove toolbar {{{
 se go-=T
 " }}}
