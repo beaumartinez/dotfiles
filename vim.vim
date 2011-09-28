@@ -22,6 +22,10 @@ se stl=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 se ls=2
 " }}}
 
+" Always show the tab line {{{
+se stal=2
+" }}}
+
 " Highlight search matches {{{
 se hls
 " }}}
