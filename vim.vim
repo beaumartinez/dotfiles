@@ -26,10 +26,6 @@ se ls=2
 se stal=2
 " }}}
 
-" Highlight search matches {{{
-se hls
-" }}}
-
 " Command-line completion {{{
 se wmnu
 " }}}
