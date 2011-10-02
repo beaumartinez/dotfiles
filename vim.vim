@@ -137,11 +137,11 @@ se sw=4
 " }}}
 
 " Store backup files in the .vim folder {{{
-let &bdir = $HOME . '/.vim/backup//'
+let &bdir = $HOME . '/.vim/.backup//'
 " }}}
 
 " Store swap files in the .vim folder {{{
-let &dir = $HOME . '/.vim/swap//'
+let &dir = $HOME . '/.vim/.swap//'
 " }}}
 
 " Syntax highlighting {{{
@@ -154,7 +154,7 @@ se udf
 " }}}
 
 " Store undo files in the .vim folder {{{
-let &udir = $HOME . '/.vim/undo'
+let &udir = $HOME . '/.vim/.undo'
 " }}}
 
 " Store 10000 undoes {{{

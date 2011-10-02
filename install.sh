@@ -40,8 +40,8 @@ ln -s $VIM_CONFIG_DIRECTORY/vim.vim ~/.vimrc
 ln -s $VIM_CONFIG_DIRECTORY/gvim.vim ~/.gvimrc
 
 echo Making special directories...
-mkdir ~/.vim/backup
-mkdir ~/.vim/swap
-mkdir ~/.vim/undo
+mkdir ~/.vim/.backup
+mkdir ~/.vim/.swap
+mkdir ~/.vim/.undo
 
 echo Done!

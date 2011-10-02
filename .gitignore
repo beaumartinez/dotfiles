@@ -1,6 +1,6 @@
 .netrwhist
-backup
+.backup
 bundle
-swap
-undo
+.swap
+.undo
 .DS_Store
