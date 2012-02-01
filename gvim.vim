@@ -1,5 +1,5 @@
-" Open gVim to 90 columns and 30 lines {{{
-se co=90
+" Open gVim to 84 columns and 30 lines {{{
+se co=84
 se lines=30
 " }}}
 
