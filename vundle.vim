@@ -10,10 +10,10 @@ Bundle 'gmarik/vundle'
 
 " Plugins {{{
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-surround'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'sjl/gundo.vim'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-surround'
 "}}}
 
 filet on
