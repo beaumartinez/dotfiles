@@ -40,6 +40,10 @@ au FileType vim se ml
 " }}}
 " }}}
 
+" Don't unload buffers {{{
+se hid
+" }}}
+
 " Highlight the cursor line {{{
 se cul
 " }}}
