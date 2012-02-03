@@ -60,6 +60,13 @@ se nuw=1
 " Show relative line numbers {{{
 se rnu
 " }}}
+
+" Show absolute line numbers when in insert mode {{{
+au InsertEnter * :se nornu
+au InsertEnter * :se nu
+au InsertLeave * :se nonu
+au InsertLeave * :se rnu
+" }}}
 " }}}
 
 " Mappings {{{
