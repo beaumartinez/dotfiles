@@ -104,6 +104,10 @@ no <leader>s :se hls!<cr>
 se acd
 " }}}
 
+" Never show the tab line {{{
+se stal=0
+" }}}
+
 " Remove intro message {{{
 se shm+=I
 " }}}
