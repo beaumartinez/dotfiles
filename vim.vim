@@ -131,11 +131,6 @@ se cc+=80
 se sc
 " }}}
 
-" Source .vimrc on write {{{
-au BufWritePost $MYVIMRC :so $MYVIMRC
-au BufWritePost ~/.vim/vim.vim :so ~/.vim/vim.vim
-" }}}
-
 " Spaces and tabs {{{
 " Use spaces, not tabs {{{
 se et
