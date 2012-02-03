@@ -44,6 +44,10 @@ au FileType vim se ml
 se hid
 " }}}
 
+" Don't wrap lines {{{
+se nowrap
+" }}}
+
 " Highlight the cursor line {{{
 se cul
 " }}}
