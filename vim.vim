@@ -48,6 +48,10 @@ se hid
 se nowrap
 " }}}
 
+" Don't bell {{{
+se vb
+" }}}
+
 " Highlight the cursor line {{{
 se cul
 " }}}
