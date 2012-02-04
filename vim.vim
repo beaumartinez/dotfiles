@@ -151,11 +151,11 @@ se sw=4
 " }}}
 
 " Store backup files in the .vim folder {{{
-let &bdir = $HOME . '/.vim/.backup//'
+let &bdir = expand('~/.vim/.backup//')
 " }}}
 
 " Store swap files in the .vim folder {{{
-let &dir = $HOME . '/.vim/.swap//'
+let &dir = expand('~/.vim/.swap//')
 " }}}
 
 " Switch to already-opened buffers {{{
@@ -172,7 +172,7 @@ se udf
 " }}}
 
 " Store undo files in the .vim folder {{{
-let &udir = $HOME . '/.vim/.undo'
+let &udir = expand('~/.vim/.undo')
 " }}}
 
 " Store 10000 undoes {{{
