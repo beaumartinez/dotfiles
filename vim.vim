@@ -154,6 +154,10 @@ let &bdir = $HOME . '/.vim/.backup//'
 let &dir = $HOME . '/.vim/.swap//'
 " }}}
 
+" Switch to already-opened buffers {{{
+se swb=usetab
+" }}}
+
 " Syntax highlighting {{{
 sy on
 " }}}
