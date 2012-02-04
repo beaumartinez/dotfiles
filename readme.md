@@ -2,12 +2,12 @@
 
 This is my Vim config.
 
-I use [Vundle] to manage [plugins]. My `.vimrc` is [`vim.vim`] and my `.gvimrc` is [`gvim.vim`].
+I use [Vundle] to manage [my plugins]. My `.vimrc` is [`vim.vim`] and my `.gvimrc` is [`gvim.vim`].
 
 [`gvim.vim`]: http://github.com/beaumartinez/vim-config/blob/master/gvim.vim
 [`vim.vim`]: http://github.com/beaumartinez/vim-config/blob/master/vim.vim
 [Vundle]: http://github.com/gmarik/vundle
-[plugins]: http://github.com/beaumartinez/vim-config/blob/master/vundle.vim
+[my plugins]: http://github.com/beaumartinez/vim-config/blob/master/vundle.vim
 
 # Installation
 
