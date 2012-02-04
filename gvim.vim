@@ -7,6 +7,11 @@ se lines=30
 se go-=T
 " }}}
 
+" Remove scrollbars {{{
+se go-=L
+se go-=r
+" }}}
+
 " Use Solarized {{{
 colo solarized
 " }}}
