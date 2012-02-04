@@ -11,6 +11,10 @@ I use [Vundle] to manage [plugins]. My `.vimrc` is [`vim.vim`] and my `.gvimrc` 
 
 # Installation
 
+**Note: I seem to remember the install script being horribly broken. I don't
+think it works, but you can give it a shot anyway. I've got half a fix in
+progress, but I'm shell-script–illiterate so it could be a while.**
+
 It's one command. Run the [install script]:
 
 [install script]: https://github.com/beaumartinez/vim-config/blob/master/install.sh
