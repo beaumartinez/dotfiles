@@ -36,7 +36,7 @@ se noml
 " }}}
 
 " Enable modelines in Vim files {{{
-au FileType vim se ml
+au FileType vim setl ml
 " }}}
 " }}}
 
