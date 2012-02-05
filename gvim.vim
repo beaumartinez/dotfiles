@@ -12,6 +12,10 @@ se go-=L
 se go-=r
 " }}}
 
+" Don't use GUI dialogs {{{
+se go+=c
+" }}}
+
 " Use Solarized {{{
 colo solarized
 " }}}
