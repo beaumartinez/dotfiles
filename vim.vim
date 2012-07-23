@@ -100,10 +100,6 @@ no <leader>s :se hls!<cr>
 " }}}
 " }}}
 
-" Match the current working directory to the current buffer {{{
-se acd
-" }}}
-
 " Remove intro message {{{
 se shm+=I
 " }}}
