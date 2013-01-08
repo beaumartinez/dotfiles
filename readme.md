@@ -9,12 +9,12 @@ I use the excellent [Vundle] to manage [my plugins]. My `.vimrc` is
 
 1. Clone the repo:
 
-    git clone git://github.com/beaumartinez/vim-config.git ~/.vim
+        git clone git://github.com/beaumartinez/vim-config.git ~/.vim
 
 2. Run [the install script] to hook shit up for you:
 
-    cd ~/.vim
-    ./install.sh
+        cd ~/.vim
+        ./install.sh
 
 And you're done.
 
