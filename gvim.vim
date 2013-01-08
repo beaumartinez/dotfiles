@@ -16,7 +16,7 @@ se go-=r
 se go+=c
 " }}}
 
-" Don't use UI chrome for tabs {{
+" Don't use UI chrome for tabs {{{
 se go-=e
 " }}}
 
