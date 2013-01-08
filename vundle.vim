@@ -9,8 +9,8 @@ Bundle 'gmarik/vundle'
 " }}}
 
 " Plugins {{{
-Bundle 'beaumartinez/vim-colors-solarized'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'beaumartinez/vim-colors-solarized'
 Bundle 'mileszs/ack.vim'
 Bundle 'sjl/gundo.vim'
 Bundle 'tpope/vim-fugitive'
