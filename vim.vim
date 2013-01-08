@@ -1,6 +1,5 @@
-" Beau's .vimrc
-
-" A ! means that the command's order (relative to the others) is important.
+" A ! means that the command's order (relative to others) is important
+" All others can be in arbitrary order
 
 " ! Remove all previous autocommands {{{
 au!
