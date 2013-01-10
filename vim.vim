@@ -35,10 +35,6 @@ au FileType vim setl ml
 " }}}
 " }}}
 
-" Don't unload buffers {{{
-se hid
-" }}}
-
 " Don't wrap lines {{{
 se nowrap
 " }}}
