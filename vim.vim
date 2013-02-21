@@ -25,16 +25,6 @@ se ls=2
 se wmnu
 " }}}
 
-" Disable modelines except in Vim files {{{
-" Disable modelines {{{
-se noml
-" }}}
-
-" Enable modelines in Vim files {{{
-au FileType vim setl ml
-" }}}
-" }}}
-
 " Don't wrap lines {{{
 se nowrap
 " }}}
