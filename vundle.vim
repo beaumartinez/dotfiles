@@ -1,10 +1,10 @@
 " vim: foldmethod=marker foldlevel=0
 
-se nocp
-filet off
+set nocompatible
+filetype off
 
 " Vundle commands {{{
-se rtp+=~/.vim/bundle/vundle
+set runtimepath+=~/.vim/bundle/vundle
 call vundle#rc()
 " }}}
 
@@ -18,4 +18,4 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 "}}}
 
-filet on
+filetype on

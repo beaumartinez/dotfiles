@@ -4,148 +4,148 @@
 " All others can be in arbitrary order
 
 " ! Remove all previous autocommands {{{
-au!
+autocmd!
 " }}}
 
 " ! Vundle {{{
-so ~/.vim/vundle.vim
+source ~/.vim/vundle.vim
 " }}}
 
 " ! Filetype {{{
-filet plugin indent on
+filetype plugin indent on
 " }}}
 
 " Add git information to the status line {{{
-se stl=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 " }}}
 
 " Always show the status line {{{
-se ls=2
+set laststatus=2
 " }}}
 
 " Command-line completion {{{
-se wmnu
+set wildmenu
 " }}}
 
 " Don't wrap lines {{{
-se nowrap
+set nowrap
 " }}}
 
 " Don't bell {{{
-se vb
+set visualbell
 " }}}
 
 " Highlight the cursor line {{{
-se cul
+set cursorline
 " }}}
 
 " Line numbers {{{
-" Use minimal space {{{
-se nuw=1
+" Uset minimal space {{{
+set numberwidth=1
 " }}}
 
 " Show relative line numbers {{{
-se rnu
+set relativenumber
 " }}}
 " }}}
 
 " Mappings {{{
 " Make leader more accessible {{{
 let mapleader=','
-no \ ,
+noremap \ ,
 " }}}
 
 " Edit .vimrc {{{
-no <leader>v :tab drop ~/.vim/vim.vim<cr>
+noremap <leader>v :tab drop ~/.vim/vim.vim<cr>
 " }}}
 
 " Fugitive mappings {{{
 " Run git command {{{
-no <leader>g :Git 
+noremap <leader>g :Git 
 " }}}
 
 " Run git command and open output in a vertical split {{{
-no <leader>gv :Gvsplit! 
+noremap <leader>gv :Gvsplit! 
 " }}}
 " }}}
 
 " Remain in visual mode if shifting in visual mode {{{
-vn > >gv
-vn < <gv
+vnoremap > >gv
+vnoremap < <gv
 " }}}
 
 " Show help in a vertical split on the right {{{
-no <leader>h :vert rightb h 
+noremap <leader>h :vert rightb h 
 " }}}
 
 " Toggle Gundo {{{
-no <leader>u :GundoToggle<cr>
+noremap <leader>u :GundoToggle<cr>
 " }}}
 
-" Toggle highlighting search matches {{{
-no <leader>s :se hls!<cr>
+" Toggle highlighting setarch matches {{{
+noremap <leader>s :set hls!<cr>
 " }}}
 " }}}
 
 " Remove intro message {{{
-se shm+=I
+set shortmess+=I
 " }}}
 
 " Show a line at 80 characters {{{
-se cc+=80
+set colorcolumn+=80
 " }}}
 
 " Show keys as they're typed {{{
-se sc
+set showcmd
 " }}}
 
 " Spaces and tabs {{{
-" Use spaces, not tabs {{{
-se et
+" Uset spaces, not tabs {{{
+set expandtab
 " }}}
 
 " Make a tab four spaces {{{
-se sts=4
-se ts=4
+set softtabstop=4
+set tabstop=4
 " }}}
 
 " Indent four spaces {{{
-se sw=4
+set shiftwidth=4
 " }}}
 " }}}
 
 " Store backup files in the .vim folder {{{
-se bdir=~/.vim/.backup//
+set backupdir=~/.vim/.backup//
 " }}}
 
 " Store swap files in the .vim folder {{{
-se dir=~/.vim/.swap//
+set dir=~/.vim/.swap//
 " }}}
 
 " Switch to already-opened buffers (including tabs) {{{
-se swb=usetab
+set switchbuf=usettab
 " }}}
 
 " Syntax highlighting {{{
-sy on
+syntax on
 " }}}
 
 " Undo {{{
 " Store undoes to a file {{{
-se udf
+set undofile
 " }}}
 
 " Store undo files in the .vim folder {{{
-se udir=~/.vim/.undo
+set undodir=~/.vim/.undo
 " }}}
 
 " Store 10000 undoes {{{
-se ul=10000
+set undolevels=10000
 " }}}
 " }}}
 
 " Create backup, swap, and undo directories {{{
-for dir in [&bdir, &dir, &udir]
+for dir in [&backupdir, &dir, &undodir]
     if !isdirectory(dir)
         mkdir(dir, 'p')
     endif

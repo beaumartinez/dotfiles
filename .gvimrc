@@ -1,31 +1,31 @@
 " vim: foldmethod=marker foldlevel=0
 
 " Open gVim to 84 columns and 30 lines {{{
-se co=84
-se lines=30
+set columns=84
+set lines=30
 " }}}
 
 " Remove toolbar {{{
-se go-=T
+set guioptions-=T
 " }}}
 
 " Remove scrollbars {{{
-se go-=L
-se go-=r
+set guioptions-=L
+set guioptions-=r
 " }}}
 
-" Don't use GUI dialogs {{{
-se go+=c
+" Don't uset GUI dialogs {{{
+set guioptions+=c
 " }}}
 
-" Don't use UI chrome for tabs {{{
-se go-=e
+" Don't uset UI chrome for tabs {{{
+set guioptions-=e
 " }}}
 
-" Use Solarized {{{
-colo solarized
+" Uset Solarized {{{
+colorscheme solarized
 " }}}
 
-" Use Ubuntu Mono {{{
-se gfn=Ubuntu\ Mono:h18
+" Uset Ubuntu Mono {{{
+set guifont=Ubuntu\ Mono:h18
 " }}}
