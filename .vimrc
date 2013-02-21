@@ -50,11 +50,6 @@ set relativenumber
 " }}}
 
 " Mappings {{{
-" Make leader more accessible {{{
-let mapleader=','
-noremap \ ,
-" }}}
-
 " Edit .vimrc {{{
 noremap <leader>v :tab drop ~/.vim/vim.vim<cr>
 " }}}
