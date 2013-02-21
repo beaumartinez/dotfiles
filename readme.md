@@ -18,6 +18,6 @@ I use the excellent [Vundle] to manage [my plugins].
 And you're done.
 
 [Vundle]: http://github.com/gmarik/vundle
-[my `.vimrc`]: http://github.com/beaumartinez/vim-config/blob/master/.vimrc
-[the install script]: https://github.com/beaumartinez/vim-config/blob/master/install.sh
-[my plugins]: http://github.com/beaumartinez/vim-config/blob/master/vundle.vim
+[my `.vimrc`]: .vimrc
+[my plugins]: vundle.vim
+[the install script]: install.sh
