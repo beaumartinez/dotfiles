@@ -1,9 +1,8 @@
 # Beau's Vim config
 
-This is my Vim config.
+This is my Vim config. Check [my `.vimrc`].
 
-I use the excellent [Vundle] to manage [my plugins]. My `.vimrc` is
-[`vim.vim`] and my `.gvimrc` is [`gvim.vim`].
+I use the excellent [Vundle] to manage [my plugins].
 
 ## Installation
 
@@ -19,7 +18,6 @@ I use the excellent [Vundle] to manage [my plugins]. My `.vimrc` is
 And you're done.
 
 [Vundle]: http://github.com/gmarik/vundle
-[`gvim.vim`]: http://github.com/beaumartinez/vim-config/blob/master/gvim.vim
-[`vim.vim`]: http://github.com/beaumartinez/vim-config/blob/master/vim.vim
+[my `.vimrc`]: http://github.com/beaumartinez/vim-config/blob/master/.vimrc
 [the install script]: https://github.com/beaumartinez/vim-config/blob/master/install.sh
 [my plugins]: http://github.com/beaumartinez/vim-config/blob/master/vundle.vim
