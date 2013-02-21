@@ -1,3 +1,5 @@
+" vim: foldmethod=marker foldlevel=0
+
 " Open gVim to 84 columns and 30 lines {{{
 se co=84
 se lines=30
@@ -27,5 +29,3 @@ colo solarized
 " Use Ubuntu Mono {{{
 se gfn=Ubuntu\ Mono:h18
 " }}}
-
-" vim: fdm=marker fdl=0

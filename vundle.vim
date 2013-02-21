@@ -1,3 +1,5 @@
+" vim: foldmethod=marker foldlevel=0
+
 se nocp
 filet off
 
@@ -17,5 +19,3 @@ Bundle 'tpope/vim-surround'
 "}}}
 
 filet on
-
-" vim: fdm=marker fdl=0

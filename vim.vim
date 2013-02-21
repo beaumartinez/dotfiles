@@ -1,3 +1,5 @@
+" vim: foldmethod=marker foldlevel=0
+
 " A ! means that the command's order (relative to others) is important
 " All others can be in arbitrary order
 
@@ -141,5 +143,3 @@ se udir=~/.vim/.undo
 se ul=10000
 " }}}
 " }}}
-
-" vim: fdm=marker fdl=0
