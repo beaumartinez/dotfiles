@@ -120,7 +120,7 @@ se bdir=~/.vim/.backup//
 se dir=~/.vim/.swap//
 " }}}
 
-" Switch to already-opened buffers {{{
+" Switch to already-opened buffers (including tabs) {{{
 se swb=usetab
 " }}}
 
