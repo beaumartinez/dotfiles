@@ -143,3 +143,11 @@ se udir=~/.vim/.undo
 se ul=10000
 " }}}
 " }}}
+
+" Create backup, swap, and undo directories {{{
+for dir in [&bdir, &dir, &udir]
+    if !isdirectory(dir)
+        mkdir(dir, 'p')
+    endif
+endfor
+" }}}
