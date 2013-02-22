@@ -118,7 +118,7 @@ set dir=~/.vim/.swap//
 " }}}
 
 " Switch to already-opened buffers (including tabs) {{{
-set switchbuf=usettab
+set switchbuf=usetab
 " }}}
 
 " Syntax highlighting {{{
