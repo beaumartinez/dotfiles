@@ -22,12 +22,12 @@ function! FormatGitBranch()
     if !empty(branch)
         return '[' . branch . ']'
     else
-        return
+        return ''
 endfunction
 " }}}
 
 " Add git information to the status line {{{
-set statusline=%<%f\ %h%m%r%{FormatGitBranch()}%=%-14.(%l,%c%V%)\ %P
+set statusline=%t\ %<\(%F\)\ \#%n\ %h%m%r%{FormatGitBranch()}%=\ %l\ %p%%
 " }}}
 
 " Always show the status line {{{
