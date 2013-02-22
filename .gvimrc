@@ -1,35 +1,25 @@
-" vim: foldmethod=marker foldlevel=0
-
-" Open Vim to 120 columns and 40 lines {{{
+" Open Vim to 120 columns and 40 lines
 set columns=120
 set lines=40
-" }}}
 
-" Remove toolbar {{{
+" Remove toolbar
 set guioptions-=T
-" }}}
 
-" Remove scrollbars {{{
+" Remove scrollbars
 set guioptions-=L
 set guioptions-=r
-" }}}
 
-" Don't uset GUI dialogs {{{
+" Don't uset GUI dialogs
 set guioptions+=c
-" }}}
 
-" Don't uset UI chrome for tabs {{{
+" Don't uset UI chrome for tabs
 set guioptions-=e
-" }}}
 
-" Use Solarized {{{
+" Use Solarized
 colorscheme solarized
-" }}}
 
-" Dark background {{{
+" Dark background
 set background=dark
-" }}}
 
-" Use Ubuntu Mono {{{
+" Use Ubuntu Mono
 set guifont=Ubuntu\ Mono:h18
-" }}}
