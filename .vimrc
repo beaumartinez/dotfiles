@@ -17,7 +17,7 @@ filetype plugin indent on
 
 " Cool git branch name function {{{
 function! FormatGitBranch()
-    let branch=fugitive#head(6)
+    let branch=fugitive#head(7)
 
     if !empty(branch)
         return '[' . branch . ']'
