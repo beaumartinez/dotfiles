@@ -27,7 +27,7 @@ endfunction
 " }}}
 
 " Add git information to the status line {{{
-set statusline=%t\ %<\(%F\)\ \#%n\ %h%m%r%{FormatGitBranch()}%=\ %l\ %p%%
+set statusline=%t\ %<\(%F\)\ \#%n\ %h%m%r%{FormatGitBranch()}%=\ %l\ %3.3p%%
 " }}}
 
 " Always show the status line {{{
