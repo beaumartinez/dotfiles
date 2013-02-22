@@ -76,10 +76,6 @@ noremap <leader>h :vert rightb h
 " Toggle Gundo {{{
 noremap <leader>u :GundoToggle<cr>
 " }}}
-
-" Toggle highlighting setarch matches {{{
-noremap <leader>s :set hls!<cr>
-" }}}
 " }}}
 
 " Remove intro message {{{
