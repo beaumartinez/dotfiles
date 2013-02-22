@@ -22,10 +22,10 @@ set guioptions+=c
 set guioptions-=e
 " }}}
 
-" Uset Solarized {{{
+" Use Solarized {{{
 colorscheme solarized
 " }}}
 
-" Uset Ubuntu Mono {{{
+" Use Ubuntu Mono {{{
 set guifont=Ubuntu\ Mono:h18
 " }}}

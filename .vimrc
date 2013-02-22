@@ -51,7 +51,7 @@ set cursorline
 " }}}
 
 " Line numbers {{{
-" Uset minimal space {{{
+" Use minimal space {{{
 set numberwidth=1
 " }}}
 
@@ -104,7 +104,7 @@ set showcmd
 " }}}
 
 " Spaces and tabs {{{
-" Uset spaces, not tabs {{{
+" Use spaces, not tabs {{{
 set expandtab
 " }}}
 
