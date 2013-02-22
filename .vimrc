@@ -15,8 +15,19 @@ source ~/.vim/vundle.vim
 filetype plugin indent on
 " }}}
 
+" Cool git branch name function {{{
+function! FormatGitBranch()
+    let branch=fugitive#head(6)
+
+    if !empty(branch)
+        return '[' . branch . ']'
+    else
+        return
+endfunction
+" }}}
+
 " Add git information to the status line {{{
-set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+set statusline=%<%f\ %h%m%r%{FormatGitBranch()}%=%-14.(%l,%c%V%)\ %P
 " }}}
 
 " Always show the status line {{{
