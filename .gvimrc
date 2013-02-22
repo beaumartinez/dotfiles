@@ -1,8 +1,8 @@
 " vim: foldmethod=marker foldlevel=0
 
-" Open gVim to 84 columns and 30 lines {{{
-set columns=84
-set lines=30
+" Open Vim to 120 columns and 40 lines {{{
+set columns=120
+set lines=40
 " }}}
 
 " Remove toolbar {{{
