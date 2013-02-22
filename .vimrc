@@ -50,8 +50,10 @@ set relativenumber
 " }}}
 
 " Mappings {{{
-" Edit .vimrc {{{
+" Edit .vimrcs {{{
 noremap <leader>v :tab drop ~/.vim/.vimrc<cr>
+noremap <leader>vg :tab drop ~/.vim/.gvimrc<cr>
+noremap <leader>vv :tab drop ~/.vim/vundle.vim<cr>
 " }}}
 
 " Fugitive mappings {{{
