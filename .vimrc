@@ -11,7 +11,7 @@ source ~/.vim/vundle.vim
 filetype plugin indent on
 
 " Cool git branch name function
-function! s:FormatGitBranch()
+function! FormatGitBranch()
     let l:branch=fugitive#head(7)
 
     if !empty(l:branch)
