@@ -21,7 +21,7 @@ function! s:FormatGitBranch()
 endfunction
 
 " Add git information to the status line
-set statusline=%t\ %<\(%F\)\ \#%n\ %h%m%r%{FormatGitBranch()}%=\ %l\ %3.3p%%
+set statusline=%t\ %<\(%F\)\ \#%n\ %m%{FormatGitBranch()}%=\ %l\ %3.3p%%
 
 " Always show the status line
 set laststatus=2
