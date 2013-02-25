@@ -74,6 +74,9 @@ set shortmess+=I
 " Show a line at 80 characters
 set colorcolumn+=80
 
+" Show a line at 120 characters
+set colorcolumn+=120
+
 " Show keys as they're typed
 set showcmd
 
