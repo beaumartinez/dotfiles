@@ -117,3 +117,9 @@ for dir in [&backupdir, &dir, &undodir]
         mkdir(dir, 'p')
     endif
 endfor
+
+" 80 characters per line is so 1970s
+let g:flake8_max_line_length=120
+
+" Plugin authors, don't add mappings automatically
+let no_flake8_maps=1
