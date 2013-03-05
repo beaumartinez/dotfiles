@@ -90,12 +90,6 @@ set tabstop=4
 " Indent four spaces
 set shiftwidth=4
 
-" Store backup files in the .vim folder
-set backupdir=~/.vim/.backup//
-
-" Store swap files in the .vim folder
-set dir=~/.vim/.swap//
-
 " Switch to already-opened buffers (including tabs)
 set switchbuf=usetab
 
@@ -105,18 +99,25 @@ syntax on
 " Store undoes to a file
 set undofile
 
-" Store undo files in the .vim folder
-set undodir=~/.vim/.undo
-
 " Store 10000 undoes
 set undolevels=10000
+
+" Store backup, swap, and undo files in the .vim folder
+set backupdir=~/.vim/.backup
+set dir=~/.vim/.swap
+set undodir=~/.vim/.undo
 
 " Create backup, swap, and undo directories
 for dir in [&backupdir, &dir, &undodir]
     if !isdirectory(dir)
-        mkdir(dir, 'p')
+        call mkdir(dir, 'p')
     endif
 endfor
+
+" Make backup, swap, and undo directories use full paths
+let &backupdir=&backupdir . '//'
+let &dir=&dir . '//'
+let &undodir=&undodir . '//'
 
 " 80 characters per line is so 1970s
 let g:flake8_max_line_length=120
