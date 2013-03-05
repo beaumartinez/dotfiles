@@ -21,5 +21,5 @@ colorscheme solarized
 " Dark background
 set background=dark
 
-" Use Ubuntu Mono
-set guifont=Ubuntu\ Mono:h18
+" Font
+set guifont=Menlo:h17
