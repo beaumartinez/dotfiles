@@ -1,6 +1,6 @@
-" Open Vim to 120 columns and 40 lines
-set columns=120
-set lines=40
+" Open Vim HUGE
+set columns=1000
+set lines=1000
 
 " Remove toolbar
 set guioptions-=T
