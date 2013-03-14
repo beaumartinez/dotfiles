@@ -14,5 +14,6 @@ Bundle 'nvie/vim-flake8'
 Bundle 'sjl/gundo.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
+Bundle 'kien/ctrlp.vim'
 
 filetype on
