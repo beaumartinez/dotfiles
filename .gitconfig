@@ -5,3 +5,13 @@
 	excludesfile = ~/.gitignore_global
 [color]
 	ui = true
+[alias]
+	d = diff --minimal --word-diff
+	l = log --decorate=short --oneline
+	s = status --branch --short 
+[push]
+	default = simple
+[branch]
+	autosetuprebase = always
+[pull]
+	rebase = true
