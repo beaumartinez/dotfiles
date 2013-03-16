@@ -12,10 +12,13 @@ venv_ps1() {
     fi
 }
 
+export PS1="\w\$(__git_ps1)\$(venv_ps1) \$ "
+
 # Colorize ls
 export CLICOLOR=1
 
-export PS1="\w\$(__git_ps1)\$(venv_ps1) \$ "
+# Vim baby
+export EDITOR=/usr/bin/vim
 
 # Homebrew shit
 export PATH=/usr/local/bin:$PATH
