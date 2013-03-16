@@ -2,7 +2,7 @@
 	name = Beau
 	email = beau@beaumartinez.com
 [core]
-	editor = /usr/bin/vim
+	editor = vim
 	excludesfile = ~/.gitignore_global
 [color]
 	ui = true
