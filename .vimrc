@@ -47,8 +47,8 @@ set relativenumber
 
 " Mappings
 " Edit .vimrcs
-noremap <leader>v :tab drop ~/.vim/.vimrc<cr>
-noremap <leader>vg :tab drop ~/.vim/.gvimrc<cr>
+noremap <leader>v :tab drop ~/.vimrc<cr>
+noremap <leader>vg :tab drop ~/.gvimrc<cr>
 noremap <leader>vv :tab drop ~/.vim/vundle.vim<cr>
 
 " Fugitive mappings
