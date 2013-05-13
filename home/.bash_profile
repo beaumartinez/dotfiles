@@ -38,3 +38,7 @@ export VIRTUALENVWRAPPER_VIRTUALENV_ARGS=--distribute
 
 alias venv="mkvirtualenv $(basename $(pwd))"
 alias vact="workon $(basename $(pwd))"
+
+alias gsp="git stash && git pull && git stash pop"
+
+export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
