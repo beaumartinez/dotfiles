@@ -39,6 +39,8 @@ export VIRTUALENVWRAPPER_VIRTUALENV_ARGS=--distribute
 alias venv="mkvirtualenv $(basename $(pwd))"
 alias vact="workon $(basename $(pwd))"
 
+export PYTHONSTARTUP=~/.pythonrc
+
 # Other
 
 export HISTFILESIZE=1000000
