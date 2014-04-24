@@ -16,6 +16,5 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'sjl/gundo.vim'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-surround'
 
 filetype on
