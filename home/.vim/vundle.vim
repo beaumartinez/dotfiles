@@ -8,12 +8,14 @@ call vundle#rc()
 " Plugins
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'beaumartinez/vim-colors-solarized'
+Bundle 'fholgado/minibufexpl.vim'
 Bundle 'gmarik/vundle'
 Bundle 'mileszs/ack.vim'
 Bundle 'nvie/vim-flake8'
+Bundle 'scrooloose/nerdtree'
 Bundle 'sjl/gundo.vim'
+Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
-Bundle 'kien/ctrlp.vim'
 
 filetype on

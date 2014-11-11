@@ -58,6 +58,9 @@ noremap <leader>g :Git
 " Run git command and open output in a vertical split
 noremap <leader>gv :Gvsplit! 
 
+" One keystroke to save, not four
+noremap s :w<return>
+
 " Remain in visual mode if shifting in visual mode
 vnoremap > >gv
 vnoremap < <gv
@@ -124,3 +127,6 @@ let g:flake8_max_line_length=120
 
 " Plugin authors, don't add mappings automatically
 let no_flake8_maps=1
+
+" ag, not ack
+let g:ackprg = 'ag --nogroup --nocolor --column'
