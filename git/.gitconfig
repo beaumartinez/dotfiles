@@ -8,7 +8,8 @@
 	ui = true
 [alias]
 	d = diff --minimal --word-diff
-	l = log --oneline
+	l = log --decorate --oneline
+	ll = log --decorate --oneline -5
 	s = status --branch --short 
 	currentbranch = symbolic-ref --short HEAD
 	b = for-each-ref --sort=-committerdate --format='%(refname:short)' refs/heads/
