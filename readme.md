@@ -1,9 +1,9 @@
 # Dotfiles
 
-That's right, I'm on the dotfiles bandwagon.
-
-Make sure you check out the goodness in my Vim dotfiles.
-
-## Hook me up broski
-
-    gem install homesick && homesick clone beaumartinez/dotfiles && homesick symlink beaumartinez/dotfiles && ~/.vim/install.sh
+    brew install stow
+    git clone https://github.com/beaumartinez/dotfiles ~/dotfiles
+    pushd .
+    cd ~/dotfiles
+    stow bash git vim -t ~
+    popd
+    ~/.vim/install.sh

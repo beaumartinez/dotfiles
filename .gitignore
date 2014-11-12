@@ -1,4 +1,4 @@
-home/.vim/.backup
-home/.vim/.swap
-home/.vim/.undo
-home/.vim/bundle
+vim/.vim/.backup
+vim/.vim/.swap
+vim/.vim/.undo
+vim/.vim/bundle
