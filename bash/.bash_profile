@@ -23,10 +23,9 @@ export EDITOR=/usr/bin/vim
 # Homebrew shit
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
-export PATH=/usr/local/share/python:$PATH
-export PATH=/usr/local/share/python3:$PATH
 export PATH=/usr/local/share/npm/bin:$PATH
 export PATH=/usr/local/opt/ruby/bin:$PATH
+export PATH=/usr/local/heroku/bin:$PATH
 
 # Python
 export PYTHONDONTWRITEBYTECODE=true
