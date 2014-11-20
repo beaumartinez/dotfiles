@@ -2,20 +2,22 @@ set nocompatible
 filetype off
 
 " Vundle commands
-set runtimepath+=~/.vim/bundle/vundle
-call vundle#rc()
+set runtimepath+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " Plugins
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'beaumartinez/vim-colors-solarized'
-Bundle 'editorconfig/editorconfig-vim'
-Bundle 'fholgado/minibufexpl.vim'
-Bundle 'gmarik/vundle'
-Bundle 'mileszs/ack.vim'
-Bundle 'nvie/vim-flake8'
-Bundle 'scrooloose/nerdtree'
-Bundle 'sjl/gundo.vim'
-Bundle 'tpope/vim-commentary'
-Bundle 'tpope/vim-fugitive'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'beaumartinez/vim-colors-solarized'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'fholgado/minibufexpl.vim'
+Plugin 'gmarik/Vundle.vim'
+Plugin 'mileszs/ack.vim'
+Plugin 'nvie/vim-flake8'
+Plugin 'scrooloose/nerdtree'
+Plugin 'sjl/gundo.vim'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-fugitive'
+
+call vundle#end()
 
 filetype on
