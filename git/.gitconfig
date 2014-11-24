@@ -11,7 +11,7 @@
 	l = log --decorate --oneline
 	ll = log --decorate --oneline -5
 	s = status --branch --short 
-	currentbranch = symbolic-ref --short HEAD
+	cb = symbolic-ref --short HEAD
 	b = for-each-ref --sort=-committerdate --format='%(refname:short)' refs/heads/
 	review = log --patch --no-merges --reverse master..
 [push]
