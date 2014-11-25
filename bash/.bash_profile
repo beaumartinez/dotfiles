@@ -28,10 +28,9 @@ export PATH=/usr/local/opt/ruby/bin:$PATH
 export PATH=/usr/local/heroku/bin:$PATH
 
 # Python
-export PYTHONDONTWRITEBYTECODE=true
+# export PYTHONDONTWRITEBYTECODE=true
 
 export WORKON_HOME=~/.env
-export VIRTUALENVWRAPPER_VIRTUALENV_ARGS=--distribute
 
 . virtualenvwrapper.sh
 
