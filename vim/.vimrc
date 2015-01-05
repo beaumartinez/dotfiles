@@ -122,11 +122,11 @@ let &backupdir=&backupdir . '//'
 let &dir=&dir . '//'
 let &undodir=&undodir . '//'
 
-" 80 characters per line is so 1970s
-let g:flake8_max_line_length=120
-
 " Plugin authors, don't add mappings automatically
 let no_flake8_maps=1
 
 " ag, not ack
 let g:ackprg = 'ag --nogroup --nocolor --column'
+
+" Run :SyntasticCheck on open
+let g:syntastic_check_on_open = 1
