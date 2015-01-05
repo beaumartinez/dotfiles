@@ -7,8 +7,13 @@ autocmd!
 " ! Vundle
 source ~/.vim/vundle.vim
 
-" ! Filetype
-filetype plugin indent on
+" Compliment sensible.vim weirdness
+set complete+=i
+set nrformats+=alpha
+
+" In case sensible.vim gives me a headache, these should revert some weirdness
+" set ttimeoutlen=-1
+" set noautoread
 
 " Cool git branch name function
 function! FormatGitBranch()
@@ -20,14 +25,16 @@ function! FormatGitBranch()
         return ''
 endfunction
 
-" Add git information to the status line
-set statusline=%t\ %<\(%F\)\ \#%n\ %m%{FormatGitBranch()}%=\ %l\ %3.3p%%
-
-" Always show the status line
-set laststatus=2
-
-" Command-line completion
-set wildmenu
+" Fly status line
+"
+" %t: filename tail (basename)
+" %F: full filename
+" %n: buffer number
+" %m: modified
+" %l: line number
+" %c: column number
+" %p: percentage down the file
+set statusline=%t\ %<\(%F\)\ \#%n\ %m%{FormatGitBranch()}%=%-14.(%l,\ %c%)\ %3.3p%%
 
 " Don't wrap lines
 set nowrap
@@ -44,6 +51,9 @@ set numberwidth=1
 
 " Show relative line numbers
 set relativenumber
+
+" sensible.vim makes listchars useful, so lets see them
+set list
 
 " Mappings
 " Edit .vimrcs
@@ -95,9 +105,6 @@ set shiftwidth=4
 
 " Switch to already-opened buffers (including tabs)
 set switchbuf=usetab
-
-" Syntax highlighting
-syntax on
 
 " Store undoes to a file
 set undofile
