@@ -48,5 +48,7 @@ alias gsp="git stash && git pull && git stash pop"
 
 alias cask=brew-cask
 
+alias l=less
+
 export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
 export ANDROID_HOME=/usr/local/opt/android-sdk
