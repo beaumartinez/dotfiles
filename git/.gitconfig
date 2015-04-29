@@ -22,3 +22,6 @@
 	autocorrect = -1
 [branch "master"]
 	mergeoptions = --no-ff
+[rerere]
+	enabled = true
+	autoupdate = true
