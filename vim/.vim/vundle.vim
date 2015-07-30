@@ -7,6 +7,7 @@ call vundle#begin()
 
 " Plugins
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'airblade/vim-gitgutter'
 Plugin 'beaumartinez/vim-colors-solarized'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'fholgado/minibufexpl.vim'
