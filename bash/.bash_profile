@@ -46,14 +46,9 @@ export HISTSIZE=1000000
 
 alias gsp="git stash && git pull && git stash pop"
 
-alias cask=brew-cask
-
 alias l=less
 
 alias nrestart="sudo ifconfig en0 down && sudo ifconfig en0 up"
 alias wchannel="/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | sed -n -e 's/^.*channel: //p'"
 
 # sudo ln -s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/bin/airport
-
-export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
-export ANDROID_HOME=/usr/local/opt/android-sdk
