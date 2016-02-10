@@ -26,3 +26,5 @@
 [rerere]
 	enabled = true
 	autoupdate = true
+[diff]
+	algorith = patience
