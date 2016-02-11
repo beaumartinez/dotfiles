@@ -56,3 +56,5 @@ alias nrestart="sudo ifconfig en0 down && sudo ifconfig en0 up"
 alias wchannel="/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | sed -n -e 's/^.*channel: //p'"
 
 # sudo ln -s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/bin/airport
+
+eval "$(thefuck --alias)"
