@@ -28,5 +28,7 @@
 [rerere]
 	enabled = true
 	autoupdate = true
+[rebase]
+	autostash = true
 [diff]
 	algorith = patience
