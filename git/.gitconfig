@@ -31,4 +31,4 @@
 [rebase]
 	autostash = true
 [diff]
-	algorith = patience
+	algorithm = patience
