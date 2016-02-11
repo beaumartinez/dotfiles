@@ -10,9 +10,11 @@
 	d = diff --minimal --word-diff
 	l = log --decorate --oneline
 	ms = "!f() { git log --oneline --grep=\"Merge branch '$1\"; }; f"  # merge search
-	s = status --branch --short 
+	cs = "!f() { git log --oneline --grep=\"$1\"; }; f"  # commit search
+	s = status --branch --short
 	cb = symbolic-ref --short HEAD  # current branch
 	b = "!f() { git for-each-ref --sort=-committerdate --format='%(refname:short)' refs/heads/ $@ | less --quit-if-one-screen --no-init; }; f"  # branches
+	bd = "!f() { git for-each-ref --sort=-committerdate refs/remotes/ --format='%(committerdate:short) %(refname:short)' | less --quit-if-one-screen --no-init; }; f"  # branch dates
 	review = log --patch --no-merges --reverse master..
 	co = checkout
 [push]
