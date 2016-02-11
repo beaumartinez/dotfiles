@@ -49,6 +49,8 @@ export HISTSIZE=1000000
 alias gsp="git stash && git pull && git stash pop"
 
 alias l=less
+alias g=git
+__git_complete g __git_main  # Necessary for bash_completion
 
 alias nrestart="sudo ifconfig en0 down && sudo ifconfig en0 up"
 alias wchannel="/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | sed -n -e 's/^.*channel: //p'"
