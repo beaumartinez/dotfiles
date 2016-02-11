@@ -1,14 +1,16 @@
+#!/usr/bin/env bash
+
 # Bash completion
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-    . $(brew --prefix)/etc/bash_completion
+if [ -f "$(brew --prefix)/etc/bash_completion" ]; then
+    . "$(brew --prefix)/etc/bash_completion"
 fi
 
 # PS1 shit
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 venv_ps1() {
-    if [ $VIRTUAL_ENV ]; then
-        echo " {"$(basename $VIRTUAL_ENV)"}"
+    if [ "$VIRTUAL_ENV" ]; then
+        echo \ {"$(basename "$VIRTUAL_ENV")"}
     fi
 }
 
@@ -34,8 +36,8 @@ export WORKON_HOME=~/.env
 
 . virtualenvwrapper.sh
 
-alias venv="mkvirtualenv $(basename $(pwd))"
-alias vact="workon $(basename $(pwd))"
+alias venv='mkvirtualenv $(basename $(pwd))'
+alias vact='workon $(basename $(pwd))'
 
 export PYTHONSTARTUP=~/.pythonrc
 
